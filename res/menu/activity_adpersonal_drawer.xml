@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home1"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home1"/>
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/ic_assignment_ind_black_24dp"
+            android:title="@string/menu_event" />
+
+        <item
+            android:id="@+id/nav_daily1"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="@string/menu_post1" />
+        <item
+            android:id="@+id/nav_monthly1"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="@string/menu_post2" />
+    </group>
+
+    <item android:title="Admin Activity">
+        <menu>
+            <item
+                android:id="@+id/nav_about1"
+                android:icon="@drawable/ic_error_outline_black_24dp"
+                android:title="@string/menu_post3" />
+
+        </menu>
+    </item>
+
+</menu>

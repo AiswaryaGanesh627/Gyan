@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_color"
+    tools:context=".RegisterActivity">
+
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/pagepic"
+        android:src="@drawable/scribbledpic"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/para"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The astonishing quizzing club 'Gyan-The Quiz Planet'
+endeavours to impart knowledge to the students of MCET with its remorseless efforts of conduction of quiz events
+under a wide range of titles and topic, bestowing upon the students a valuable take-away after every event."
+        android:textSize="12sp"
+        android:layout_marginStart="25dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/pagepic"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginTop="30dp"/>
+
+
+    <TextView
+        android:id="@+id/para1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="We would greatly appreciate your involvement to learn.
+Happy Quizzing!!"
+        android:layout_marginStart="25dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/para"
+
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginTop="30dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_club"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Club members \n"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_below="@id/para1"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="60dp"/>
+
+            <TextView
+                android:id="@+id/post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feel free to contact us at"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:layout_below="@id/tv_club"
+                android:layout_marginStart="25dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:id="@+id/phone"
+                android:drawableLeft="@drawable/ic_phone_black_24dp"
+                android:drawablePadding="2dp"
+                android:text="9895667114"
+                android:textColor="#FFFFFF"
+                android:layout_below="@id/post"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="12sp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/mail"
+                android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+                android:drawablePadding="2dp"
+                android:text="gyanmcet@drmcet.in"
+                android:layout_below="@id/phone"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    </RelativeLayout>
+

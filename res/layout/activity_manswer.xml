@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_color"
+    android:orientation="vertical"
+    tools:context=".ManswerActivity">
+
+
+
+    <TextView
+        android:id="@+id/tv_nam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Give Your Answers!!"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/num1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question number!!"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_below="@id/tv_nam"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:id="@+id/quest1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Questions"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="false"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/num1"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginTop="20dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup1"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/quest1"
+        android:orientation="vertical"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:id="@+id/radio11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="option 1"
+            android:buttonTint="#19A0DA"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btn_state"
+            android:layoutDirection="rtl"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:checked="false"
+            android:textSize="15dp"
+            />
+
+        <RadioButton
+            android:id="@+id/radio21"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="option 2"
+            android:buttonTint="#19A0DA"
+            android:layoutDirection="rtl"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_state"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:textColor="#FFFFFF"
+            android:checked="false"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/radio31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="option 3"
+            android:buttonTint="#19A0DA"
+            android:background="@drawable/btn_state"
+            android:layoutDirection="rtl"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:checked="false"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/radio41"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="option 4"
+            android:layoutDirection="rtl"
+            android:background="@drawable/btn_state"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="textStart"
+            android:buttonTint="#19A0DA"
+            android:layout_gravity="start"
+            android:checked="false"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+    </RadioGroup>
+
+
+
+    <Button
+        android:id="@+id/btn_nexts1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_custom"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/roboto_regular"
+        android:textColor="@android:color/white"
+        android:text="GO"
+        android:textSize="15dp"
+        android:layout_below="@id/radioGroup1"
+        android:layout_weight="1"/>
+
+
+</RelativeLayout>

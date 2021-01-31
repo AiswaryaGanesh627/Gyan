@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient_color"
+    android:layout_height="match_parent"
+    tools:context=".EventActivity">
+
+
+
+
+    <TextView
+        android:id="@+id/quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz Damakha!!"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/quiz1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please wait for announcements"
+        android:textAlignment="center"
+        android:background="@drawable/cus_event"
+        android:textSize="20sp"
+        android:layout_below="@id/quiz"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#000000"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:id="@+id/quiz2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book your seats!! \nWin exciting prizes worth 1.5K!"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_below="@id/quiz1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_color"
+    tools:context=".DquestActivity">
+
+
+
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post Upcoming Events"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter event name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:padding="15dp"
+        android:layout_below="@id/text7"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_centerInParent="true"
+        android:background="@drawable/et_custom"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/et_date"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter event date "
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:padding="15dp"
+        android:layout_below="@id/et_name"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_centerInParent="true"
+        android:background="@drawable/et_custom"
+        android:textSize="15sp" />
+    <EditText
+        android:id="@+id/et_time"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter event time"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:padding="15dp"
+        android:layout_below="@id/et_date"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_centerInParent="true"
+        android:background="@drawable/et_custom"
+        android:textSize="15sp" />
+    <EditText
+        android:id="@+id/et_venue"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter event venue"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:padding="15dp"
+        android:layout_below="@id/et_time"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_centerInParent="true"
+        android:background="@drawable/et_custom"
+        android:textSize="15sp" />
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/et_venue"
+        android:id="@+id/et_buttons">
+        <Button
+            android:id="@+id/btn_can"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/btn_custom"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@android:color/white"
+            android:text="CANCEL"
+            android:textSize="15dp"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btn_ne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_custom"
+            android:textSize="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@android:color/white"
+            android:text="POST"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
