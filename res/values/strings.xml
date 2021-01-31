@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Gyan</string>
+    <string name="web_client_id">230143621924-in1tc7mrt7mlf6dh97rvpbaeqvqj36pq.apps.googleusercontent.com</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">The Gyan</string>
+    <string name="nav_header_desc">The Gyan</string>
+
+
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="register">Register</string>
+    <string name="con_password">Confirm Password</string>
+    <string name="your_name">Full Name</string>
+    <string name="create">Create Account</string>
+    <string name="admin">ADMIN</string>
+    <string name="user">USER</string>
+    <string name="title_activity_personal">Gyan-The Quiz Planet</string>
+    <string name="action_settings">Log Out</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_score">Upcoming Events</string>
+    <string name="menu_dquiz">Daily Quiz</string>
+    <string name="menu_mquiz">Monthly Quiz</string>
+    <string name="menu_log">About Us</string>
+    <string name="menu_faq">Feedback</string>
+    <string name="title_activity_profile">Gyan-The Quiz Planet</string>
+    <string name="title_activity_adpersonal">Gyan-The Quiz Planet</string>
+    <string name="menu_home1">Home</string>
+    <string name="menu_post1">Post Daily Quiz</string>
+    <string name="menu_post2">Post Monthly Quiz</string>
+    <string name="menu_event">Post Events</string>
+    <string name="menu_post3">About Us</string>
+    <string name="pdaily">Post Daily Quiz</string>
+    <string name="rdaily">Take Daily Quiz</string>
+    <string name="go">START</string>
+
+
+</resources>
